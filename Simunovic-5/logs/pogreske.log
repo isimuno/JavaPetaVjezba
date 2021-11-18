@@ -1,0 +1,937 @@
+2021-03-30 12:14:43,750 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-30 12:14:49,995 INFO [main] m.h.j.c.m.Glavna [Glavna.java:498] Pokušaj unosa nedozvoljene vrijednosti pri unosu broja stanovnika zupanije! 
+2021-03-30 12:14:49,995 WARN [main] m.h.j.c.m.Glavna [Glavna.java:499] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiZupaniju(Glavna.java:495)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:37)
+2021-03-30 12:15:43,441 INFO [main] m.h.j.c.m.Glavna [Glavna.java:333] Pokušaj unosa nedozvoljene vrijednosti unosu broja simptoma! 
+2021-03-30 12:15:43,441 WARN [main] m.h.j.c.m.Glavna [Glavna.java:334] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:328)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:53)
+2021-03-30 12:15:47,446 INFO [main] m.h.j.c.m.Glavna [Glavna.java:313] Pokušaj unosa nedozvoljene vrijednosti odabiru vrste bolesti ! 
+2021-03-30 12:15:47,446 WARN [main] m.h.j.c.m.Glavna [Glavna.java:314] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:303)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:53)
+2021-03-30 12:15:51,593 INFO [main] m.h.j.c.m.Glavna [Glavna.java:55] Unešena bolest/virus s istim simptomima.
+2021-03-30 12:15:51,593 WARN [main] m.h.j.c.m.Glavna [Glavna.java:56] Aktivirana iznimka: main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+2021-03-30 12:16:47,318 INFO [main] m.h.j.c.m.Glavna [Glavna.java:173] Pokušaj unosa nedozvoljene vrijednosti pri odabiru bolesti! 
+2021-03-30 12:16:47,318 WARN [main] m.h.j.c.m.Glavna [Glavna.java:174] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:162)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:66)
+2021-03-30 12:17:05,952 INFO [main] m.h.j.c.m.Glavna [Glavna.java:125] Pokušaj unosa nedozvoljene vrijednosti za starost! 
+2021-03-30 12:17:05,952 WARN [main] m.h.j.c.m.Glavna [Glavna.java:126] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:121)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:66)
+2021-03-30 12:17:08,953 INFO [main] m.h.j.c.m.Glavna [Glavna.java:149] Pokušaj unosa nedozvoljene vrijednosti pri odabiru zupanije! 
+2021-03-30 12:17:08,953 WARN [main] m.h.j.c.m.Glavna [Glavna.java:150] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:138)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:66)
+2021-03-30 12:17:12,319 INFO [main] m.h.j.c.m.Glavna [Glavna.java:173] Pokušaj unosa nedozvoljene vrijednosti pri odabiru bolesti! 
+2021-03-30 12:17:12,319 WARN [main] m.h.j.c.m.Glavna [Glavna.java:174] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:162)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:66)
+2021-03-30 12:17:41,495 INFO [main] m.h.j.c.m.Glavna [Glavna.java:242] Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+2021-03-30 12:17:41,495 WARN [main] m.h.j.c.m.Glavna [Glavna.java:243] Aktivirana iznimka: 
+main.hr.java.covidportal.iznimke.DuplikatKontaktiraneOsobeException: Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+	at main.hr.java.covidportal.main.Glavna.DuplikatKontaktOsoba(Glavna.java:279)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:225)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:66)
+2021-03-30 12:18:42,416 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-30 12:19:27,691 INFO [main] m.h.j.c.m.Glavna [Glavna.java:313] Pokušaj unosa nedozvoljene vrijednosti odabiru vrste bolesti ! 
+2021-03-30 12:19:27,691 WARN [main] m.h.j.c.m.Glavna [Glavna.java:314] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:303)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:53)
+2021-03-30 12:19:46,356 INFO [main] m.h.j.c.m.Glavna [Glavna.java:333] Pokušaj unosa nedozvoljene vrijednosti unosu broja simptoma! 
+2021-03-30 12:19:46,356 WARN [main] m.h.j.c.m.Glavna [Glavna.java:334] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:328)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:53)
+2021-03-30 12:19:47,315 INFO [main] m.h.j.c.m.Glavna [Glavna.java:333] Pokušaj unosa nedozvoljene vrijednosti unosu broja simptoma! 
+2021-03-30 12:19:47,315 WARN [main] m.h.j.c.m.Glavna [Glavna.java:334] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:328)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:53)
+2021-03-30 12:19:54,842 INFO [main] m.h.j.c.m.Glavna [Glavna.java:55] Unešena bolest/virus s istim simptomima.
+2021-03-30 12:19:54,842 WARN [main] m.h.j.c.m.Glavna [Glavna.java:56] Aktivirana iznimka: main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+2021-03-30 12:20:25,266 INFO [main] m.h.j.c.m.Glavna [Glavna.java:125] Pokušaj unosa nedozvoljene vrijednosti za starost! 
+2021-03-30 12:20:25,266 WARN [main] m.h.j.c.m.Glavna [Glavna.java:126] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:121)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:66)
+2021-03-30 12:20:29,140 INFO [main] m.h.j.c.m.Glavna [Glavna.java:173] Pokušaj unosa nedozvoljene vrijednosti pri odabiru bolesti! 
+2021-03-30 12:20:29,140 WARN [main] m.h.j.c.m.Glavna [Glavna.java:174] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:162)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:66)
+2021-03-30 12:20:36,386 INFO [main] m.h.j.c.m.Glavna [Glavna.java:149] Pokušaj unosa nedozvoljene vrijednosti pri odabiru zupanije! 
+2021-03-30 12:20:36,386 WARN [main] m.h.j.c.m.Glavna [Glavna.java:150] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:138)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:66)
+2021-03-30 12:20:42,534 INFO [main] m.h.j.c.m.Glavna [Glavna.java:238] Pokušaj unosa nedozvoljene vrijednosti za odabir kontaktirane osobe! 
+2021-03-30 12:20:42,534 WARN [main] m.h.j.c.m.Glavna [Glavna.java:239] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:220)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:66)
+2021-03-30 12:20:55,728 INFO [main] m.h.j.c.m.Glavna [Glavna.java:242] Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+2021-03-30 12:20:55,728 WARN [main] m.h.j.c.m.Glavna [Glavna.java:243] Aktivirana iznimka: 
+main.hr.java.covidportal.iznimke.DuplikatKontaktiraneOsobeException: Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+	at main.hr.java.covidportal.main.Glavna.DuplikatKontaktOsoba(Glavna.java:279)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:225)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:66)
+2021-03-30 12:20:56,652 INFO [main] m.h.j.c.m.Glavna [Glavna.java:242] Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+2021-03-30 12:20:56,652 WARN [main] m.h.j.c.m.Glavna [Glavna.java:243] Aktivirana iznimka: 
+main.hr.java.covidportal.iznimke.DuplikatKontaktiraneOsobeException: Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+	at main.hr.java.covidportal.main.Glavna.DuplikatKontaktOsoba(Glavna.java:279)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:225)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:66)
+2021-03-30 12:26:21,650 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-30 12:26:31,661 INFO [main] m.h.j.c.m.Glavna [Glavna.java:498] Pokušaj unosa nedozvoljene vrijednosti pri unosu broja stanovnika zupanije! 
+2021-03-30 12:26:31,661 WARN [main] m.h.j.c.m.Glavna [Glavna.java:499] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiZupaniju(Glavna.java:495)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:37)
+2021-03-30 12:27:44,460 INFO [main] m.h.j.c.m.Glavna [Glavna.java:333] Pokušaj unosa nedozvoljene vrijednosti unosu broja simptoma! 
+2021-03-30 12:27:44,460 WARN [main] m.h.j.c.m.Glavna [Glavna.java:334] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:328)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:53)
+2021-03-30 12:27:56,894 INFO [main] m.h.j.c.m.Glavna [Glavna.java:361] Pokušaj unosa nedozvoljene vrijednosti pri odabiru simptoma bolesti ! 
+2021-03-30 12:27:56,910 WARN [main] m.h.j.c.m.Glavna [Glavna.java:362] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:349)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:53)
+2021-03-30 12:27:58,521 INFO [main] m.h.j.c.m.Glavna [Glavna.java:55] Unešena bolest/virus s istim simptomima.
+2021-03-30 12:27:58,521 WARN [main] m.h.j.c.m.Glavna [Glavna.java:56] Aktivirana iznimka: main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+2021-03-30 12:28:06,133 INFO [main] m.h.j.c.m.Glavna [Glavna.java:333] Pokušaj unosa nedozvoljene vrijednosti unosu broja simptoma! 
+2021-03-30 12:28:06,133 WARN [main] m.h.j.c.m.Glavna [Glavna.java:334] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:328)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:53)
+2021-03-30 12:28:39,643 INFO [main] m.h.j.c.m.Glavna [Glavna.java:55] Unešena bolest/virus s istim simptomima.
+2021-03-30 12:28:39,643 WARN [main] m.h.j.c.m.Glavna [Glavna.java:56] Aktivirana iznimka: main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+2021-03-30 12:28:54,506 INFO [main] m.h.j.c.m.Glavna [Glavna.java:55] Unešena bolest/virus s istim simptomima.
+2021-03-30 12:28:54,506 WARN [main] m.h.j.c.m.Glavna [Glavna.java:56] Aktivirana iznimka: main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+2021-03-30 12:29:02,122 INFO [main] m.h.j.c.m.Glavna [Glavna.java:55] Unešena bolest/virus s istim simptomima.
+2021-03-30 12:29:02,122 WARN [main] m.h.j.c.m.Glavna [Glavna.java:56] Aktivirana iznimka: main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+2021-03-30 12:29:20,829 INFO [main] m.h.j.c.m.Glavna [Glavna.java:125] Pokušaj unosa nedozvoljene vrijednosti za starost! 
+2021-03-30 12:29:20,829 WARN [main] m.h.j.c.m.Glavna [Glavna.java:126] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:121)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:66)
+2021-03-30 12:29:23,500 INFO [main] m.h.j.c.m.Glavna [Glavna.java:149] Pokušaj unosa nedozvoljene vrijednosti pri odabiru zupanije! 
+2021-03-30 12:29:23,500 WARN [main] m.h.j.c.m.Glavna [Glavna.java:150] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:138)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:66)
+2021-03-30 12:30:00,576 INFO [main] m.h.j.c.m.Glavna [Glavna.java:242] Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+2021-03-30 12:30:00,576 WARN [main] m.h.j.c.m.Glavna [Glavna.java:243] Aktivirana iznimka: 
+main.hr.java.covidportal.iznimke.DuplikatKontaktiraneOsobeException: Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+	at main.hr.java.covidportal.main.Glavna.DuplikatKontaktOsoba(Glavna.java:279)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:225)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:66)
+2021-03-30 12:30:01,957 INFO [main] m.h.j.c.m.Glavna [Glavna.java:242] Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+2021-03-30 12:30:01,957 WARN [main] m.h.j.c.m.Glavna [Glavna.java:243] Aktivirana iznimka: 
+main.hr.java.covidportal.iznimke.DuplikatKontaktiraneOsobeException: Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+	at main.hr.java.covidportal.main.Glavna.DuplikatKontaktOsoba(Glavna.java:279)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:225)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:66)
+2021-03-30 12:40:15,750 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-30 12:41:13,794 INFO [main] m.h.j.c.m.Glavna [Glavna.java:318] Pokušaj unosa nedozvoljene vrijednosti odabiru vrste bolesti ! 
+2021-03-30 12:41:13,794 WARN [main] m.h.j.c.m.Glavna [Glavna.java:319] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:308)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:53)
+2021-03-30 12:41:22,784 INFO [main] m.h.j.c.m.Glavna [Glavna.java:318] Pokušaj unosa nedozvoljene vrijednosti odabiru vrste bolesti ! 
+2021-03-30 12:41:22,784 WARN [main] m.h.j.c.m.Glavna [Glavna.java:319] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:308)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:53)
+2021-03-30 12:41:28,602 INFO [main] m.h.j.c.m.Glavna [Glavna.java:55] Unešena bolest/virus s istim simptomima.
+2021-03-30 12:41:28,602 WARN [main] m.h.j.c.m.Glavna [Glavna.java:56] Aktivirana iznimka: main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+2021-03-30 12:41:28,602 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:57] Unešena bolest/virus s istim simptomima.
+main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+	at main.hr.java.covidportal.main.Glavna.DuplikatBolesti(Glavna.java:458)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:374)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:53)
+2021-03-30 12:41:58,193 INFO [main] m.h.j.c.m.Glavna [Glavna.java:176] Pokušaj unosa nedozvoljene vrijednosti pri odabiru bolesti! 
+2021-03-30 12:41:58,193 WARN [main] m.h.j.c.m.Glavna [Glavna.java:177] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:165)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:67)
+2021-03-30 12:41:58,193 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:178] null
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:165)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:67)
+2021-03-30 12:42:04,900 INFO [main] m.h.j.c.m.Glavna [Glavna.java:151] Pokušaj unosa nedozvoljene vrijednosti pri odabiru zupanije! 
+2021-03-30 12:42:04,900 WARN [main] m.h.j.c.m.Glavna [Glavna.java:152] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:140)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:67)
+2021-03-30 12:42:04,900 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:153] null
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:140)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:67)
+2021-03-30 12:42:12,064 INFO [main] m.h.j.c.m.Glavna [Glavna.java:176] Pokušaj unosa nedozvoljene vrijednosti pri odabiru bolesti! 
+2021-03-30 12:42:12,064 WARN [main] m.h.j.c.m.Glavna [Glavna.java:177] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:165)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:67)
+2021-03-30 12:42:12,064 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:178] null
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:165)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:67)
+2021-03-30 12:42:32,200 INFO [main] m.h.j.c.m.Glavna [Glavna.java:246] Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+2021-03-30 12:42:32,200 WARN [main] m.h.j.c.m.Glavna [Glavna.java:247] Aktivirana iznimka: 
+main.hr.java.covidportal.iznimke.DuplikatKontaktiraneOsobeException: Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+	at main.hr.java.covidportal.main.Glavna.DuplikatKontaktOsoba(Glavna.java:284)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:229)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:67)
+2021-03-30 12:42:32,200 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:248] Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+main.hr.java.covidportal.iznimke.DuplikatKontaktiraneOsobeException: Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+	at main.hr.java.covidportal.main.Glavna.DuplikatKontaktOsoba(Glavna.java:284)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:229)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:67)
+2021-03-30 12:42:33,839 INFO [main] m.h.j.c.m.Glavna [Glavna.java:246] Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+2021-03-30 12:42:33,839 WARN [main] m.h.j.c.m.Glavna [Glavna.java:247] Aktivirana iznimka: 
+main.hr.java.covidportal.iznimke.DuplikatKontaktiraneOsobeException: Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+	at main.hr.java.covidportal.main.Glavna.DuplikatKontaktOsoba(Glavna.java:284)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:229)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:67)
+2021-03-30 12:42:33,839 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:248] Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+main.hr.java.covidportal.iznimke.DuplikatKontaktiraneOsobeException: Odabrana osoba se već nalazi među kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+	at main.hr.java.covidportal.main.Glavna.DuplikatKontaktOsoba(Glavna.java:284)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:229)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:67)
+2021-03-30 21:34:21,192 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 17:24:03,411 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 17:26:39,901 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 17:27:01,507 INFO [main] m.h.j.c.m.Glavna [Glavna.java:72] Odabrana osoba se već nalazi medu kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+2021-03-31 17:27:01,507 WARN [main] m.h.j.c.m.Glavna [Glavna.java:73] Aktivirana iznimkaOdabrana osoba se već nalazi medu kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+2021-03-31 17:27:15,665 INFO [main] m.h.j.c.m.Glavna [Glavna.java:72] Odabrana osoba se već nalazi medu kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+2021-03-31 17:27:15,665 WARN [main] m.h.j.c.m.Glavna [Glavna.java:73] Aktivirana iznimkaOdabrana osoba se već nalazi medu kontaktiranim osobama. Molimo Vas da odaberete neku drugu osobu !
+2021-03-31 17:28:07,053 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 17:45:16,408 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 17:46:41,011 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 17:47:32,392 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 17:47:57,789 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 17:47:57,794 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 17:48:12,175 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 17:48:12,176 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 17:48:20,292 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 17:48:20,293 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 17:48:24,844 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 17:48:24,845 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 17:48:52,675 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 17:48:52,681 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 17:50:09,333 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 17:50:27,822 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 17:50:27,827 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 17:50:48,200 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 17:50:48,202 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 17:51:14,217 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 17:51:35,985 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 17:51:35,989 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 17:52:34,866 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 17:53:06,923 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 17:53:06,928 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 17:53:10,956 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 17:53:10,957 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 17:54:39,035 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 17:55:02,859 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 17:55:02,864 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 17:55:06,874 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 17:55:06,876 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 17:57:06,401 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 17:57:31,735 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 17:57:31,739 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 17:57:34,990 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 17:57:34,991 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:01:36,644 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 18:02:00,820 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:02:00,832 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:02:04,310 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:02:04,315 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:05:05,249 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 18:06:18,371 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:06:18,379 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:06:21,687 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:06:21,688 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:06:24,979 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:06:24,980 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:08:28,718 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 18:11:01,373 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 18:11:32,223 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:11:32,227 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:11:36,022 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:11:36,023 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:11:38,761 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:11:38,763 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:15:51,598 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 18:16:17,624 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:16:17,627 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:16:37,498 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:16:37,499 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:18:51,675 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 18:19:21,758 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:19:21,765 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:19:30,868 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:19:30,869 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:19:44,697 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:19:44,698 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:20:31,343 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 18:22:08,463 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:22:08,468 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:22:47,460 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 18:23:16,739 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:23:16,742 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:23:24,733 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:23:24,735 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:28:55,625 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 18:29:34,046 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:29:34,051 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-03-31 18:31:27,801 INFO [main] m.h.j.c.m.Glavna [Glavna.java:32] Aplikacija pokrenuta! 
+2021-03-31 18:33:03,605 INFO [main] m.h.j.c.m.Glavna [Glavna.java:74] Duplikat!
+2021-03-31 18:33:03,609 WARN [main] m.h.j.c.m.Glavna [Glavna.java:75] Aktivirana iznimkaDuplikat!
+2021-04-03 11:17:55,358 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 11:19:28,067 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 11:20:11,991 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 11:21:19,597 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 11:21:36,774 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 11:25:07,112 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 11:25:27,570 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 11:27:38,763 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 11:33:08,523 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 11:38:40,704 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 11:38:53,594 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 11:40:28,412 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 11:42:04,371 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 11:42:28,399 INFO [main] m.h.j.c.m.Glavna [Glavna.java:67] Unešena bolest/virus s istim simptomima.
+2021-04-03 11:42:28,399 WARN [main] m.h.j.c.m.Glavna [Glavna.java:68] Aktivirana iznimka: main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+2021-04-03 11:42:28,399 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:69] Unešena bolest/virus s istim simptomima.
+main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+	at main.hr.java.covidportal.main.Glavna.DuplikatBolesti(Glavna.java:471)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:386)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:65)
+2021-04-03 11:45:22,049 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 11:48:55,812 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 18:51:02,877 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 18:55:18,016 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 18:55:26,867 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 18:57:49,389 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 19:10:39,628 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 19:19:46,027 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 19:21:14,231 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 19:21:22,479 INFO [main] m.h.j.c.m.Glavna [Glavna.java:562] Pokušaj unosa nedozvoljene vrijednosti pri unosu broja stanovnika zupanije! 
+2021-04-03 19:21:22,479 WARN [main] m.h.j.c.m.Glavna [Glavna.java:563] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiZupaniju(Glavna.java:559)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:54)
+2021-04-03 19:21:22,494 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:564] null
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiZupaniju(Glavna.java:559)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:54)
+2021-04-03 20:47:29,962 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 20:47:49,330 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 20:52:20,995 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 20:55:25,820 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 20:56:37,130 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 20:57:54,642 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:02:19,074 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:03:07,596 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:05:11,825 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:07:06,699 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:07:31,173 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:10:38,407 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:12:42,837 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:14:49,638 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:16:51,622 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:23:38,578 INFO [main] m.h.j.c.m.Glavna [Glavna.java:384] Pokušaj unosa nedozvoljene vrijednosti odabiru vrste bolesti ! 
+2021-04-03 21:23:38,578 WARN [main] m.h.j.c.m.Glavna [Glavna.java:385] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:374)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:95)
+2021-04-03 21:33:02,006 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:41:26,986 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:44:55,958 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:47:45,055 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:49:33,342 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:51:44,425 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:57:47,817 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:58:08,155 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 21:58:21,031 INFO [main] m.h.j.c.m.Glavna [Glavna.java:394] Pokušaj unosa nedozvoljene vrijednosti odabiru vrste bolesti ! 
+2021-04-03 21:58:21,031 WARN [main] m.h.j.c.m.Glavna [Glavna.java:395] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:384)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:95)
+2021-04-03 22:10:47,086 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 22:12:32,387 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 22:13:20,963 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 22:21:08,504 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 22:24:27,904 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 22:25:35,105 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 22:29:03,069 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 22:31:08,640 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 22:39:04,790 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 22:43:07,479 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 22:44:20,602 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 22:47:30,217 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 22:49:58,614 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 22:50:02,463 INFO [main] m.h.j.c.m.Glavna [Glavna.java:603] Pokušaj unosa nedozvoljene vrijednosti pri unosu broja stanovnika zupanije! 
+2021-04-03 22:50:02,463 WARN [main] m.h.j.c.m.Glavna [Glavna.java:604] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiZupaniju(Glavna.java:600)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:54)
+2021-04-03 22:50:02,463 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:605] null
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiZupaniju(Glavna.java:600)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:54)
+2021-04-03 22:50:50,518 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 22:52:13,662 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 22:56:16,154 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 22:58:01,285 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:00:52,719 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:03:44,807 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:05:33,422 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:06:06,409 INFO [main] m.h.j.c.m.Glavna [Glavna.java:464] Pokušaj unosa nedozvoljene vrijednosti pri odabiru simptoma bolesti ! 
+2021-04-03 23:06:06,409 WARN [main] m.h.j.c.m.Glavna [Glavna.java:465] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:452)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:95)
+2021-04-03 23:06:06,409 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:466] null
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:452)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:95)
+2021-04-03 23:06:51,967 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:11:01,960 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:11:28,613 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:14:59,322 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:15:40,829 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:20:48,907 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:23:54,547 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:24:17,639 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:24:38,710 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:27:32,183 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:28:10,001 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:29:04,478 INFO [main] m.h.j.c.m.Glavna [Glavna.java:225] Pokušaj unosa nedozvoljene vrijednosti za starost! 
+2021-04-03 23:29:04,478 WARN [main] m.h.j.c.m.Glavna [Glavna.java:226] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:221)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:110)
+2021-04-03 23:29:04,493 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:227] null
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiOsobe(Glavna.java:221)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:110)
+2021-04-03 23:30:38,716 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:32:11,825 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:37:31,496 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:41:50,583 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:41:50,880 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-03 23:42:16,044 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:17:22,887 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:17:45,769 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:23:23,234 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:25:57,055 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:28:34,049 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:30:20,149 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:31:24,726 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:32:21,457 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:34:10,080 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:38:11,379 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:44:18,481 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:44:44,848 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:45:55,041 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:46:48,328 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:47:07,739 INFO [main] m.h.j.c.m.Glavna [Glavna.java:436] Pokušaj unosa nedozvoljene vrijednosti unosu broja simptoma! 
+2021-04-04 12:47:07,739 WARN [main] m.h.j.c.m.Glavna [Glavna.java:437] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:431)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:95)
+2021-04-04 12:47:07,739 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:438] null
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:431)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:95)
+2021-04-04 12:51:26,713 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:52:45,718 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:53:11,261 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 12:55:13,113 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 13:01:04,794 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 13:08:19,163 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 13:08:46,119 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 13:09:27,025 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 13:09:48,427 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 13:14:45,999 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 13:15:49,745 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 13:16:13,169 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 13:25:26,550 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 13:28:41,091 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 13:28:47,850 INFO [main] m.h.j.c.m.Glavna [Glavna.java:614] Pokušaj unosa nedozvoljene vrijednosti pri unosu broja stanovnika zupanije! 
+2021-04-04 13:28:47,850 WARN [main] m.h.j.c.m.Glavna [Glavna.java:615] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiZupaniju(Glavna.java:611)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:54)
+2021-04-04 13:28:47,866 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:616] null
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiZupaniju(Glavna.java:611)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:54)
+2021-04-04 13:31:35,965 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 13:32:33,080 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 13:36:08,766 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 13:36:28,491 INFO [main] m.h.j.c.m.Glavna [Glavna.java:97] Unešena bolest/virus s istim simptomima.
+2021-04-04 13:36:28,507 WARN [main] m.h.j.c.m.Glavna [Glavna.java:98] Aktivirana iznimka: main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+2021-04-04 13:36:28,507 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:99] Unešena bolest/virus s istim simptomima.
+main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+	at main.hr.java.covidportal.main.Glavna.DuplikatBolesti(Glavna.java:566)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:529)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:95)
+2021-04-04 13:36:35,256 INFO [main] m.h.j.c.m.Glavna [Glavna.java:97] Unešena bolest/virus s istim simptomima.
+2021-04-04 13:36:35,256 WARN [main] m.h.j.c.m.Glavna [Glavna.java:98] Aktivirana iznimka: main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+2021-04-04 13:36:35,256 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:99] Unešena bolest/virus s istim simptomima.
+main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+	at main.hr.java.covidportal.main.Glavna.DuplikatBolesti(Glavna.java:566)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:529)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:95)
+2021-04-04 13:36:39,940 INFO [main] m.h.j.c.m.Glavna [Glavna.java:97] Unešena bolest/virus s istim simptomima.
+2021-04-04 13:36:39,940 WARN [main] m.h.j.c.m.Glavna [Glavna.java:98] Aktivirana iznimka: main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+2021-04-04 13:36:39,940 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:99] Unešena bolest/virus s istim simptomima.
+main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+	at main.hr.java.covidportal.main.Glavna.DuplikatBolesti(Glavna.java:566)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:480)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:95)
+2021-04-04 13:38:46,910 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 13:39:26,803 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 13:44:30,740 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 14:22:11,710 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 14:22:29,375 INFO [main] m.h.j.c.m.Glavna [Glavna.java:456] Pokušaj unosa nedozvoljene vrijednosti unosu broja simptoma! 
+2021-04-04 14:22:29,382 WARN [main] m.h.j.c.m.Glavna [Glavna.java:457] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:451)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:95)
+2021-04-04 14:22:29,382 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:458] null
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:451)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:95)
+2021-04-04 14:23:27,510 INFO [main] m.h.j.c.m.Glavna [Glavna.java:37] Aplikacija pokrenuta! 
+2021-04-04 14:24:57,658 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 14:25:52,365 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 14:33:17,440 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 14:37:18,895 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 14:44:15,675 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 14:45:01,934 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 14:46:13,529 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 14:51:55,842 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 14:53:32,784 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 15:02:08,731 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 15:02:58,326 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 15:05:26,567 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 15:06:11,302 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 15:07:05,238 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 15:09:26,324 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 15:10:01,167 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 15:10:21,034 INFO [main] m.h.j.c.m.Glavna [Glavna.java:469] Pokušaj unosa nedozvoljene vrijednosti pri odabiru simptoma bolesti ! 
+2021-04-04 15:10:21,035 WARN [main] m.h.j.c.m.Glavna [Glavna.java:470] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:457)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:96)
+2021-04-04 15:10:21,043 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:471] null
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:457)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:96)
+2021-04-04 15:14:55,250 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 15:16:04,109 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 15:17:16,940 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 15:20:08,672 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 15:22:42,559 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 15:29:41,669 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 15:36:08,293 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 15:41:47,541 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 16:55:26,524 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 16:57:00,494 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 17:01:05,680 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 17:04:21,250 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 17:04:44,062 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 17:06:12,125 INFO [main] m.h.j.c.m.Glavna [Glavna.java:38] Aplikacija pokrenuta! 
+2021-04-04 17:56:51,215 INFO [main] m.h.j.c.m.Glavna [Glavna.java:39] Aplikacija pokrenuta! 
+2021-04-04 18:02:32,412 INFO [main] m.h.j.c.m.Glavna [Glavna.java:39] Aplikacija pokrenuta! 
+2021-04-04 18:07:26,198 INFO [main] m.h.j.c.m.Glavna [Glavna.java:39] Aplikacija pokrenuta! 
+2021-04-04 18:10:37,710 INFO [main] m.h.j.c.m.Glavna [Glavna.java:39] Aplikacija pokrenuta! 
+2021-04-04 19:32:51,877 INFO [main] m.h.j.c.m.Glavna [Glavna.java:39] Aplikacija pokrenuta! 
+2021-04-04 19:36:10,345 INFO [main] m.h.j.c.m.Glavna [Glavna.java:40] Aplikacija pokrenuta! 
+2021-04-04 19:37:08,160 INFO [main] m.h.j.c.m.Glavna [Glavna.java:440] Pokušaj unosa nedozvoljene vrijednosti odabiru vrste bolesti ! 
+2021-04-04 19:37:08,163 WARN [main] m.h.j.c.m.Glavna [Glavna.java:441] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:430)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:98)
+2021-04-04 19:50:18,368 INFO [main] m.h.j.c.m.Glavna [Glavna.java:40] Aplikacija pokrenuta! 
+2021-04-04 19:52:32,836 INFO [main] m.h.j.c.m.Glavna [Glavna.java:40] Aplikacija pokrenuta! 
+2021-04-04 19:55:12,975 INFO [main] m.h.j.c.m.Glavna [Glavna.java:40] Aplikacija pokrenuta! 
+2021-04-04 19:58:23,204 INFO [main] m.h.j.c.m.Glavna [Glavna.java:40] Aplikacija pokrenuta! 
+2021-04-04 19:59:39,724 INFO [main] m.h.j.c.m.Glavna [Glavna.java:40] Aplikacija pokrenuta! 
+2021-04-04 20:01:38,489 INFO [main] m.h.j.c.m.Glavna [Glavna.java:40] Aplikacija pokrenuta! 
+2021-04-04 20:06:14,954 INFO [main] m.h.j.c.m.Glavna [Glavna.java:40] Aplikacija pokrenuta! 
+2021-04-04 20:09:35,033 INFO [main] m.h.j.c.m.Glavna [Glavna.java:40] Aplikacija pokrenuta! 
+2021-04-04 21:08:59,974 INFO [main] m.h.j.c.m.Glavna [Glavna.java:41] Aplikacija pokrenuta! 
+2021-04-04 21:09:40,985 INFO [main] m.h.j.c.m.Glavna [Glavna.java:41] Aplikacija pokrenuta! 
+2021-04-04 21:10:14,483 INFO [main] m.h.j.c.m.Glavna [Glavna.java:41] Aplikacija pokrenuta! 
+2021-04-04 21:15:37,721 INFO [main] m.h.j.c.m.Glavna [Glavna.java:41] Aplikacija pokrenuta! 
+2021-04-04 21:17:41,768 INFO [main] m.h.j.c.m.Glavna [Glavna.java:41] Aplikacija pokrenuta! 
+2021-04-04 21:18:26,091 INFO [main] m.h.j.c.m.Glavna [Glavna.java:41] Aplikacija pokrenuta! 
+2021-04-04 21:21:21,549 INFO [main] m.h.j.c.m.Glavna [Glavna.java:41] Aplikacija pokrenuta! 
+2021-04-04 21:22:40,792 INFO [main] m.h.j.c.m.Glavna [Glavna.java:41] Aplikacija pokrenuta! 
+2021-04-04 21:23:12,265 INFO [main] m.h.j.c.m.Glavna [Glavna.java:101] Unešena bolest/virus s istim simptomima.
+2021-04-04 21:23:12,265 WARN [main] m.h.j.c.m.Glavna [Glavna.java:102] Aktivirana iznimka: main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+2021-04-04 21:23:12,265 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:103] Unešena bolest/virus s istim simptomima.
+main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+	at main.hr.java.covidportal.main.Glavna.DuplikatBolesti(Glavna.java:587)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:501)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:99)
+2021-04-11 13:36:52,461 INFO [main] m.h.j.c.m.Glavna [Glavna.java:41] Aplikacija pokrenuta! 
+2021-04-11 13:42:02,297 INFO [main] m.h.j.c.m.Glavna [Glavna.java:41] Aplikacija pokrenuta! 
+2021-04-11 13:57:48,617 INFO [main] m.h.j.c.m.Glavna [Glavna.java:41] Aplikacija pokrenuta! 
+2021-04-11 14:26:48,843 INFO [main] m.h.j.c.m.Glavna [Glavna.java:42] Aplikacija pokrenuta! 
+2021-04-11 14:27:20,571 INFO [main] m.h.j.c.m.Glavna [Glavna.java:42] Aplikacija pokrenuta! 
+2021-04-11 14:41:55,100 INFO [main] m.h.j.c.m.Glavna [Glavna.java:42] Aplikacija pokrenuta! 
+2021-04-11 14:48:48,523 INFO [main] m.h.j.c.m.Glavna [Glavna.java:42] Aplikacija pokrenuta! 
+2021-04-11 14:49:24,467 INFO [main] m.h.j.c.m.Glavna [Glavna.java:42] Aplikacija pokrenuta! 
+2021-04-11 14:54:59,230 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-11 19:00:50,459 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-11 19:18:25,504 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-11 19:22:06,906 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-11 19:22:38,447 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-11 19:24:58,392 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-11 19:30:50,355 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-11 19:30:55,522 INFO [main] m.h.j.c.m.Glavna [Glavna.java:693] Pokušaj unosa nedozvoljene vrijednosti pri unosu broja stanovnika zupanije! 
+2021-04-11 19:30:55,524 WARN [main] m.h.j.c.m.Glavna [Glavna.java:694] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiZupaniju(Glavna.java:690)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:61)
+2021-04-11 19:30:55,579 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:695] null
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiZupaniju(Glavna.java:690)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:61)
+2021-04-11 19:45:38,707 INFO [main] m.h.j.c.m.Glavna [Glavna.java:43] Aplikacija pokrenuta! 
+2021-04-11 19:50:30,629 INFO [main] m.h.j.c.m.Glavna [Glavna.java:43] Aplikacija pokrenuta! 
+2021-04-11 19:50:42,076 INFO [main] m.h.j.c.m.Glavna [Glavna.java:501] Pokušaj unosa nedozvoljene vrijednosti odabiru vrste bolesti ! 
+2021-04-11 19:50:42,076 WARN [main] m.h.j.c.m.Glavna [Glavna.java:502] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:491)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:101)
+2021-04-11 19:51:35,521 INFO [main] m.h.j.c.m.Glavna [Glavna.java:43] Aplikacija pokrenuta! 
+2021-04-11 20:00:37,532 INFO [main] m.h.j.c.m.Glavna [Glavna.java:43] Aplikacija pokrenuta! 
+2021-04-11 20:06:03,567 INFO [main] m.h.j.c.m.Glavna [Glavna.java:43] Aplikacija pokrenuta! 
+2021-04-11 20:09:37,765 INFO [main] m.h.j.c.m.Glavna [Glavna.java:43] Aplikacija pokrenuta! 
+2021-04-11 20:12:31,514 INFO [main] m.h.j.c.m.Glavna [Glavna.java:43] Aplikacija pokrenuta! 
+2021-04-11 20:15:04,669 INFO [main] m.h.j.c.m.Glavna [Glavna.java:43] Aplikacija pokrenuta! 
+2021-04-12 18:14:56,811 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-12 18:15:45,741 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-12 18:16:22,499 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-12 18:30:15,757 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-12 19:06:25,786 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-12 19:10:34,671 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-12 19:22:59,301 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 19:27:02,399 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 19:27:54,699 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 19:32:49,960 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 19:34:09,104 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 19:40:48,679 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 19:41:18,211 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 19:52:34,451 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 19:58:23,940 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 20:03:42,440 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 20:09:07,340 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 20:09:12,722 INFO [main] m.h.j.c.m.Glavna [Glavna.java:731] Pokušaj unosa nedozvoljene vrijednosti pri unosu broja stanovnika zupanije! 
+2021-04-12 20:09:12,722 WARN [main] m.h.j.c.m.Glavna [Glavna.java:732] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiZupaniju(Glavna.java:728)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:62)
+2021-04-12 20:09:12,722 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:733] null
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiZupaniju(Glavna.java:728)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:62)
+2021-04-12 20:11:34,047 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 20:41:16,010 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 20:45:00,722 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 20:45:15,097 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 20:49:14,984 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 20:51:41,428 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 20:52:00,829 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 20:52:58,913 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 21:02:25,694 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 21:06:41,153 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-12 21:07:07,239 INFO [main] m.h.j.c.m.Glavna [Glavna.java:512] Pokušaj unosa nedozvoljene vrijednosti odabiru vrste bolesti ! 
+2021-04-12 21:07:07,239 WARN [main] m.h.j.c.m.Glavna [Glavna.java:513] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:502)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:103)
+2021-04-13 10:48:35,171 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 10:50:17,139 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 10:52:40,448 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 11:06:52,645 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 11:15:30,465 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 11:26:03,688 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 18:31:33,915 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 18:35:43,232 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 18:40:35,957 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 18:42:29,825 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 18:43:50,079 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 18:49:43,975 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 18:52:41,739 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 18:56:56,868 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 18:57:17,987 INFO [main] m.h.j.c.m.Glavna [Glavna.java:548] Pokušaj unosa nedozvoljene vrijednosti unosu broja simptoma! 
+2021-04-13 18:57:17,987 WARN [main] m.h.j.c.m.Glavna [Glavna.java:549] Aktivirana iznimka: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:543)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:103)
+2021-04-13 18:57:18,024 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:550] null
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:543)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:103)
+2021-04-13 18:57:37,762 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 19:01:31,076 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 19:03:43,495 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 19:06:50,589 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 19:07:49,357 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 19:13:50,916 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 19:34:55,026 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 19:58:43,973 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 20:06:11,135 INFO [main] m.h.j.c.m.Glavna [Glavna.java:45] Aplikacija pokrenuta! 
+2021-04-13 20:25:38,786 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-13 20:26:55,970 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-13 20:30:28,286 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-13 20:31:27,465 INFO [main] m.h.j.c.m.Glavna [Glavna.java:104] Unešena bolest/virus s istim simptomima.
+2021-04-13 20:31:27,465 WARN [main] m.h.j.c.m.Glavna [Glavna.java:105] Aktivirana iznimka: main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+2021-04-13 20:31:27,465 ERROR [main] m.h.j.c.m.Glavna [Glavna.java:106] Unešena bolest/virus s istim simptomima.
+main.hr.java.covidportal.iznimke.BolestIstihSimptomaException: Unešena bolest/virus s istim simptomima.
+	at main.hr.java.covidportal.main.Glavna.DuplikatBolesti(Glavna.java:667)
+	at main.hr.java.covidportal.main.Glavna.unesiBolesti(Glavna.java:581)
+	at main.hr.java.covidportal.main.Glavna.main(Glavna.java:102)
+2021-04-13 20:34:24,490 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-13 20:34:57,899 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
+2021-04-13 20:37:01,145 INFO [main] m.h.j.c.m.Glavna [Glavna.java:44] Aplikacija pokrenuta! 
